@@ -1,0 +1,87 @@
+.gridContainer{
+    display: grid;  /* Makes it grid like */
+    grid-template-columns: repeat(7, 1fr);  /* Sets number of columns with their size (fr creates things of the same size) */
+    grid-template-rows: repeat(6, 1fr); /* Sets number of rows with their size */
+    /*margin: auto;  Next 2 lines allow horizontal centering */
+    margin-right: 70px;   /* Sets up the margins between the grid container and the other stuff*/
+    margin-left: 29%;
+    width: 600px;
+    height: 450px;
+    position: relative; /* Next 2 lines allow for vertical centering */
+    text-align: center; /* Center text within */
+    background-color: blue; /* Set colour of element */
+    padding: 15px; /* Padding between element and contents */
+    column-gap: 10px;  /* Padding between columns */
+    row-gap: 10px; /* Padding between rows */
+    border-style: solid;  /* How Border looks */
+    border-radius: 20px; /* rounded corners */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+}
+
+.windBody{
+    background-image: url("background.jpg"); /* Setting the background of the page */
+    background-repeat: no-repeat; /* Ensuring there is only one image */
+    background-size: cover; /*Ensuring it covers the entire page*/
+
+}
+
+.gridItem{
+    background-color: #e4dddd;
+    border-style: solid;  /* How Border looks */
+    border-radius: 50%; /* Make it shaped like a circle if > 50% */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+    line-height: 100px; /* Puts text in correct spot */
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif; /* Puts different fonts that can be used */
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.restart{
+    margin: auto;
+    width: 450px;
+    position: relative;
+    top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.restartbtn{
+    background-color:rgb(190, 218, 235);
+    font-weight: bold; /*Bolding text*/
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid;  /* How Border looks */
+    border-radius: 20px; /* rounded corners */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+}
+
+.colInd{
+    display: grid;  /* Makes it grid like */
+    grid-template-columns: repeat(7, 1fr);  /* Sets number of columns with their size (fr creates things of the same size) */
+    grid-template-rows: 1fr; /* Sets number of rows with their size */
+    margin: auto; /* Next 2 lines allow horizontal centering */
+    width: 600px;
+    height: 50px;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+    cursor: pointer;
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	border-top: 50px solid transparent;
+    /*visibility: hidden;*/
+}

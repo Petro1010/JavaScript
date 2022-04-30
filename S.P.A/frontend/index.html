@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application</title>
+    <link rel="stylesheet" href="static/css/spa.css" />
+</head>
+<body>
+    <nav class="nav">  <!-- This nav element holds different links to other places -->
+        <a href="/" class="nav_link" data-link>Dashboard</a>  <!-- data-link used the history api to navigate to the resource without having to refresh -->
+        <a href="/posts" class="nav_link" data-link>Tasks</a>
+        <a href="/settings" class="nav_link" data-link>Settings</a>
+    </nav>
+    <div id="app"></div>
+    <script src="static/js/index.js" type="module"></script>
+</body>
+</html>

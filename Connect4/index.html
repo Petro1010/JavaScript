@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connect 4</title>
+    <meta name="description" content="description"/>
+    <meta name="author" content="author" />
+    <meta name="keywords" content="keywords" />
+    <link rel="stylesheet" href="c4.css" />
+  </head>
+  <!-- Everything Done is usually in the body -->
+  <body class="windBody">
+      
+      <h1 class="title">Connect 4</h1>
+      <h2 class="credit" style="text-align: center;">By: Mathew Petronilho</h2>
+      <div class="colInd">
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+          <div class="triangle-down"></div>
+      </div>
+      <div style="display: flex;">  <!-- Allows for the 2 divs within to be side by side -->
+        <div class="gridContainer">
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+          <div class="gridItem"></div>
+        </div>
+        <div>
+          <h1>Player's Turn:</h1>
+          <div id="pturn" class="gridItem" style="height: 100px; width: 100px; margin: auto; background-color: red;"></div>
+        </div>
+      </div>
+      
+      <div class="restart"><button id="restartbtn" class="restartbtn">New Game</button></div>
+      <script src="connect4Model.js"></script>
+      <script src="c4Controller.js"></script>
+    </body>
+</html>

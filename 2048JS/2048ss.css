@@ -1,0 +1,71 @@
+.gridContainer{
+    display: grid;  /* Makes it grid like */
+    grid-template-columns: repeat(4, 1fr);  /* Sets number of columns with their size (fr creates things of the same size) */
+    grid-template-rows: repeat(4, 1fr); /* Sets number of rows with their size */
+    margin: auto; /* Next 2 lines allow horizontal centering */
+    width: 450px;
+    height: 450px;
+    position: relative; /* Next 2 lines allow for vertical centering */
+    top: 20px;
+    text-align: center; /* Center text within */
+    background-color: #a99989; /* Set colour of element */
+    padding: 10px; /* Padding between element and contents */
+    column-gap: 10px;  /* Padding between columns */
+    row-gap: 10px; /* Padding between rows */
+    border-style: solid;  /* How Border looks */
+    border-radius: 20px; /* rounded corners */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+}
+
+.windBody{
+    background-color: #dbd6bf;
+
+}
+
+.gridItem{
+    background-color: #FFE7C7;
+    border-style: solid;  /* How Border looks */
+    border-radius: 20px; /* rounded corners */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+    line-height: 100px; /* Puts text in correct spot */
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif; /* Puts different fonts that can be used */
+    font-weight: bold;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 80px;
+    margin: auto;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.score{
+    margin: auto; /* Next 2 lines allow horizontal centering */
+    width: 300px;
+    font-size: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.restart{
+    margin: auto;
+    width: 450px;
+    position: relative;
+    top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.restartbtn{
+    height: 50px;
+    width: 50%;
+    font-size: 20px;
+    font-family: Copperplate, Papyrus, fantasy;
+    border-style: solid;  /* How Border looks */
+    border-radius: 20px; /* rounded corners */
+    border-width: 2px; /* Width of border */
+    border-color: black; /* Colour of border */
+}

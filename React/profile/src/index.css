@@ -1,0 +1,87 @@
+.info{
+  margin: auto;
+  width: 500px;
+  text-align: center;
+}
+
+.pic{
+  width: 320px;
+  height: 250px;
+}
+
+.info--name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.info--job{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+.info--website{
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: #F5F5F5;
+}
+
+.emailbtn {
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  width: 247px;
+  height: 34px;
+  left: 151px;
+  top: 469px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #374151;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.about {
+  margin: auto;
+  width: 300px;
+  color: #FFFFFF;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  color: #DCDCDC;
+}
+
+.footer{
+  padding: 10px;
+  margin: auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer > img {
+  width: 25px;
+  height: 25px;
+}

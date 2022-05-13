@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  background: #F5F7FB;
+  background-image: url("https://img.freepik.com/free-vector/white-question-mark-background-minimal-style_1017-25235.jpg?w=2000"); /* Setting the background of the page */
+  background-repeat: no-repeat; /* Ensuring there is only one image */
+  background-size: cover; /*Ensuring it covers the entire page*/
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.start--page {
+  margin: auto; /* Next 2 lines allow horizontal centering */
+  width: 450px;
+  height: 450px;
+  position: relative; /* Next 2 lines allow for vertical centering */
+  top: 200px;
+  text-align: center;
+}
+
+.play--button {
+  width: 193px;
+  height: 52px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F5F7FB;
+  cursor: pointer;
+}
+
+.start--page > h1 {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 37px;
+  color: #293264;
+}
+
+.start--page > p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #293264;
+}
+
+.questions--container {
+  margin: auto;
+  width: 45%;
+}
+
+.question {
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 25px;
+  color: #293264;
+}
+.answer--container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.answer {
+  border-radius: 8px;
+  height: 45px;
+  min-width: 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+  cursor: pointer;
+}
+
+.submit--button {
+  width: 193px;
+  height: 52px;
+  background: #4D5B9E;
+  border-radius: 15px;
+  border: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #F5F7FB;
+  cursor: pointer;
+  /*Center Button within a div:*/
+  margin: 20px auto;
+  display: block;
+}
+
+.game--end {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: center;
+  color: #293264;
+}
